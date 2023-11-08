@@ -9,6 +9,15 @@
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:type" content="article">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP7GSVZ52K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SP7GSVZ52K');
+</script>
 
 {% for tag_slug in page.tags %}
   {% unless tag.header-img %}
