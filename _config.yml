@@ -47,7 +47,7 @@ google_fonts:        Lato
 google_analytics:    G-SP7GSVZ52K
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus: False #### 수정
+disqus: False #### True 에서 수정
 disqus_shortname:    theorydb
 
 # This text will appear in the footer of every page. Markdown enabled.
